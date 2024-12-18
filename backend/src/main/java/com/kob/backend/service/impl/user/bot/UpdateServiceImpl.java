@@ -36,7 +36,7 @@ public class UpdateServiceImpl implements UpdateService {
 
         Map<String, String> map = new HashMap<>();
         if(title == null || title.length() == 0) {
-            map.put("error_messsage", "标题不能为空");
+            map.put("error_message", "标题不能为空");
             return map;
         }
 
