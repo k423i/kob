@@ -8,7 +8,6 @@ import UserAccountLoginView from '@/views/user/account/UserAccountLoginView.vue'
 import UserAccountRegisterView from '@/views/user/account/UserAccountRegisterView.vue'
 import store from '@/store'
 
-
 const routes = [
   {
     path: "/",
